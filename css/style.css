@@ -444,7 +444,7 @@ div.logo h4 {
 
 div.logo h1 {
   color: var(--primary);
-  font-size: 30px;
+  font-size: 22px;
   margin: 7px 0px;
 }
 
@@ -859,11 +859,11 @@ div.footend {
 .backtotop {
   background: var(--blue-gradient);
   color: #fff;
-  padding: 2px 6px;
+  padding: 2px 8px;
   position: fixed;
   bottom: -50px;
   right: 10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border-radius: 7px;
   display: inline-block;
   cursor: pointer;
@@ -872,6 +872,7 @@ div.footend {
 
 .menu-icon {
   display: none;
+  color: white;
 }
 
 @media screen and (max-width: 992px) {
@@ -881,6 +882,12 @@ div.footend {
     justify-content: space-between;
     gap: 60px;
   }
+
+  #getStarted {
+    width: 90%;
+    margin: auto;
+  }
+
   .epl {
     flex-direction: column;
   }
@@ -896,6 +903,10 @@ div.footend {
   }
   #why .header {
     text-align: start;
+  }
+
+  #why {
+    height: 100%;
   }
 }
 
@@ -931,9 +942,7 @@ div.footend {
   .aston {
     width: 100%;
   }
-  .logo {
-    text-align: center;
-  }
+
   #footer {
     flex-direction: column;
     gap: 3rem;
@@ -947,10 +956,10 @@ div.footend {
   }
   #contact {
     flex-direction: column;
+    padding: 1.5rem;
   }
   .menu-icon {
     display: block;
-    color: white;
   }
   .hamburgerClose {
     display: none;
@@ -963,10 +972,9 @@ div.footend {
     top: -30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 70%;
     text-align: center;
     padding: 50px;
-    gap: 30px;
     border-radius: 5px;
     transition: 0.5s;
     justify-content: center;
@@ -981,6 +989,26 @@ div.footend {
     width: 100% !important;
     height: 75vh !important;
   }
+
+  #value {
+    padding: 1.5rem;
+  }
+
+  #value .header {
+    text-align: center;
+  }
+
+  main,
+  #aboutUs,
+  #team,
+  nav.container {
+    padding: 2rem 1rem;
+  }
+
+  h1.go {
+    font-size: 35px;
+  }
+
   .players {
     flex-direction: column;
     gap: 2rem;
@@ -1019,7 +1047,18 @@ div.footend {
     flex-direction: column;
     margin-top: 1rem;
   }
+
+  #value .lopps h4 {
+    font-size: 13px;
+    text-align: center;
+  }
+
   .afcon h1 {
     font-size: 25px !important;
+  }
+
+  #why .header p,
+  #why .choose p {
+    font-size: 12px;
   }
 }
