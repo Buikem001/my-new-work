@@ -483,6 +483,9 @@ div.contactlist button {
   transition: all 0.3s ease-in 0s;
 }
 
+.counter {
+  color: #fff;
+}
 div.contactHeader {
   display: flex;
   align-items: center;
