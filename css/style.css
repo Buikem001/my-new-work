@@ -968,6 +968,7 @@ div.footend {
     position: fixed;
     background-color: hsl(233, 26%, 24%);
     flex-direction: column;
+    z-index: 1;
     gap: 30px;
     top: -30%;
     left: 50%;
